@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webstructure | Élevez vos projets</title>
+  
+  <!-- Polices Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Prompt:wght@300;400;600&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Style Unique -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-logo-area" id="nav-logo">
+      <img class="nav-logo" src="logo/entire-w.png" alt="Logo Webstructure">
+      <span class="nav-name">ebstructure</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#services">Nos Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#contact" class="btn-cta">Nous Contacter</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section (Header) -->
+  <header id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Élevez vos projets <span class="highlight">à la grandeur de vos ambitions</span></h1>
+        <p>Nous vous offrons la possibilité de vous démarquer grâce à un site internet hors du commun que nous créerons pour vous, ou simplement en modernisant votre site web déjà existant.</p>
+      </div>
+      <div class="hero-logo-graphic">
+        <!-- Tes images de logo dynamiques -->
+        <div class="logo-wrapper">
+          <img class="logo-bracket" src="logo/less-than.png" alt="<">
+          <img class="logo-main" src="logo/entire-w.png" alt="W">
+          <img class="logo-bracket" src="logo/bigger-than.png" alt=">">
+        </div>
+      </div>
+    </div>
+    <!-- Zone pour tes losanges animés en JS -->
+    <div class="diamonds-grid" id="diamonds-container"></div>
+  </header>
+
+  <main>
+    <!-- À Propos & Contact Rapide -->
+    <section id="about" class="about-section">
+      <div class="container grid-2">
+        <div class="card about-card">
+          <h2>À propos de nous</h2>
+          <p>L'innovation est au cœur de notre approche. En combinant la puissance de l'intelligence artificielle pour accélérer le développement et notre maîtrise du HTML, CSS et JavaScript, nous créons des sites web uniques et parfaitement optimisés.</p>
+          <p>Contrairement aux outils de création rigides qui standardisent le web, nous utilisons la technologie pour concevoir des fonctionnalités 100 % personnalisées, adaptées à la grandeur de vos ambitions.</p>
+        </div>
+        <div class="card contact-card">
+          <h2>Contactez-nous !</h2>
+          <p>Si vous avez des questionnements ou des doutes à propos de la création de site web, n'hésitez pas à entrer en contact avec nous.</p>
+          <p class="email-display">Courriel : <a href="mailto:webstructure.contact@gmail.com">webstructure.contact@gmail.com</a></p>
+          <p>Vous pouvez également nous faire part de tout autre problème en rapport avec la programmation et nous ferons de notre mieux pour vous venir en aide.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <h2 class="section-title">Nos services</h2>
+        <div class="services-grid">
+          
+          <!-- Service 1 -->
+          <div class="service-card featured">
+            <div class="badge">Populaire 🥇</div>
+            <img src="services/character-new-site.png" alt="Création" class="service-img">
+            <h3>Création d'un Site Web</h3>
+            <p>Nous créerons une toute nouvelle page web en tenant compte de vos suggestions ou de votre style de prédilection.</p>
+            <div class="service-meta">
+              <span>⏳ 1-2 semaines</span>
+              <span class="price">💲 75 - 150$*</span>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <img src="services/character-debug.png" alt="Débogage" class="service-img">
+            <h3>Débogage de Site</h3>
+            <p>Nous ferons passer à votre site web une série de tests afin d'identifier les bugs qui pourraient s'y être glissés.</p>
+            <div class="service-meta">
+              <span>⏳ 1-2 jours</span>
+              <span class="price">💲 25 - 50$*</span>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <img src="services/character-upgrade.png" alt="Relooking" class="service-img">
+            <h3>Re-looking de Site Web</h3>
+            <p>Nous moderniserons votre page web pour la rendre plus attrayante et captivante.</p>
+            <div class="service-meta">
+              <span>⏳ 3-7 jours</span>
+              <span class="price">💲 30 - 125$*</span>
+            </div>
+          </div>
+
+        </div>
+        <p class="price-notice">* dépend de la complexité du site</p>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <p class="subtitle">Quelques-uns de nos modèles</p>
+        
+        <div class="portfolio-grid">
+          <div class="portfolio-item"><img src="portfolio/template1.png" alt="Modèle 1"></div>
+          <div class="portfolio-item"><img src="portfolio/template3.png" alt="Modèle 2"></div>
+          <div class="portfolio-item"><img src="portfolio/template2.png" alt="Modèle 3"></div>
+        </div>
+        
+        <p class="portfolio-footer">Vous pouvez évidemment nous faire une requête pour un certain modèle que vous avez remarqué sur le Web ou simplement en inventer un par vous-même.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>Webstructure</h3>
+        <p>Nous avons comme objectif de créer des sites internet de plus en plus innovants afin de repousser les limites de la programmation, et ce tout en vous aidant à réaliser vos projets.</p>
+      </div>
+      <div class="footer-contact">
+        <h3>Besoin d'un conseil ?</h3>
+        <p>Écrivez-nous pour des questions, des soucis, des inquiétudes ou des offres de projets :</p>
+        <a href="mailto:webstructure.contact@gmail.com" class="email-btn">webstructure.contact@gmail.com</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <a href="#home" class="scroll-top">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
